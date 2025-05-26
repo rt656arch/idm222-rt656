@@ -1,0 +1,52 @@
+#contactMain {
+  width: 100%;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Main div {
+  height: 50px;
+}
+
+#contactImage img{
+  width: 300px;
+}
+
+@media only screen and (min-width: 10px){
+  #contactImage {
+    background-color:coral;
+    width: 100%;
+  }
+  #contactSocials {
+    background-color:lightblue;
+    width: 100%;
+  }
+  #contactIntro {
+    background-color:khaki;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #contactImage {
+    width: 50%;
+  }
+  #contactSocials {
+    width: 50%;
+  }
+  #contactIntro {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 900px) {
+  /* PUSH "div3" to right side */
+  #contactMain {
+    justify-content: flex-end;
+  }
+  #contactText {
+    background-color: purple;
+    width:50%;
+  }
+}
