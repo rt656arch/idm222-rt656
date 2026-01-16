@@ -31,13 +31,18 @@ document.getElementById("IDM212final")?.addEventListener("click", () => {
 document.getElementById("VSST109final")?.addEventListener("click", () => {
   window.open("case_study2.html");
 });
+document.getElementById("IDM232final")?.addEventListener("click", () => {
+  window.open("recipe_case_study.html");
+});
 
 hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
 
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+document.querySelectorAll(".nav-link").forEach((n) =>
+  n.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
-}))
+  })
+);
