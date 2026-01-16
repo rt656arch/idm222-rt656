@@ -24,13 +24,14 @@ const navMenu = document.querySelector(".nav-menu");
 //   window.open("case_study2.html");
 //    });
 
-document.getElementById("IDM212final")?.addEventListener("click", () => {
-  window.open("case_study1.html");
-});
+// document.getElementById("IDM212final")?.addEventListener("click", () => {
+//   window.open("case_study1.html");
+// });
 
-document.getElementById("VSST109final")?.addEventListener("click", () => {
-  window.open("case_study2.html");
-});
+// document.getElementById("VSST109final")?.addEventListener("click", () => {
+//   window.open("case_study2.html");
+// });
+
 document.getElementById("IDM232final")?.addEventListener("click", () => {
   window.open("recipe_case_study.html");
 });
